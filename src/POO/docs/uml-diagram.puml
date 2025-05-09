@@ -1,0 +1,21 @@
+@startuml
+title Diagrama de Classe para o Iphone
+interface ReprodutorMusical {
++tocar()
++pausar()
++selecionarMusica()
+}
+interface AparelhoTelefonico {
++ligar(String)
++atender()
++iniciarCorreioVoz()
+}
+interface NavegadorInternet {
++exibirPagina(String)
++adicionarNovaAba()
++atualizarPagina()
+}
+class Iphone implements ReprodutorMusical
+class Iphone implements AparelhoTelefonico
+class Iphone implements NavegadorInternet
+@enduml
