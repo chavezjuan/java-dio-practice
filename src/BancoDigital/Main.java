@@ -16,7 +16,7 @@ public class Main {
         cc.depositar(100);
         cc.transferir(100, poupanca);
 
-        cc.imprimir();
+        cc.imprimirExtrato();
         poupanca.imprimirExtrato();
     }
 }
